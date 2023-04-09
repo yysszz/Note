@@ -33,6 +33,7 @@ public class Demo01 {
             @Override
             public String run(LocalDateTime t, String s) {
                 DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(s);
+                System.out.println("test");
                 return dateTimeFormatter.format(t);
             }
         };
